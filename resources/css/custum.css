@@ -1,0 +1,175 @@
+#hook {
+    padding: 50px 0px;
+    background: #ffefdb;
+    position: relative;
+    z-index: 99;
+}
+
+.hook_details {
+    align-items: center;
+}
+
+.hook_text_final {
+    color: #8063a0;
+}
+
+.hook_details {
+    font-size: 23px;
+}
+
+.hook_text {
+    padding-left: 10px;
+}
+
+.calender-input {
+    background: transparent !important;
+    color: #fff !important;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    font-size: 17px;
+    background: 0 0;
+    border: 2px solid #fff !important;
+    border-radius: 50px !important;
+}
+
+
+
+
+.first-right {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.first-right img {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.first-right p {
+    color: #8063a0;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.first-right .contact {
+    color: #8063a0;
+    text-decoration: none;
+    font-size: 23.5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.first-right .email-text {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.first-right .email {
+    font-size: 25px;
+    color: #8063a0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: white;
+} */
+
+/* Change text color inside the time input */
+/* input[type="time"] {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+} */
+
+/* Style the time picker arrow (Chrome, Edge) */
+/* input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+    cursor: pointer;
+} */
+
+/* Remove default time input buttons if needed */
+/* input[type="time"]::-webkit-clear-button,
+input[type="time"]::-webkit-inner-spin-button {
+    display: none;
+} */
+
+
+#included {
+    padding-top: 0px !important;
+}
+
+
+
+/* Add basic styles to inputs */
+/* input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding-right: 30px;
+    position: relative;
+} */
+
+/* input[type="date"]::after,
+input[type="time"]::after {
+    content: "\f078";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 16px;
+    color: #888;
+    display: none;
+} */
+
+/* Display the icon only on screens 768px or below */
+@media (max-width: 768px) {
+
+    input[type="date"]::after,
+    input[type="time"]::after {
+        display: block;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .include_details img {
+        width: fit-content !important;
+    }
+}
+
+
+.pay-btn {
+    cursor: pointer;
+}
+
+.cta-pay-btn {
+    background: linear-gradient(to right, #8063a0 0, #47126b 100%) !important;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 3px;
+    margin-top: 15px;
+    color: #fff;
+    border-radius: 50px;
+    font-family: Nunito;
+    width: fit-content;
+    transition: 0.3s all ease-in-out;
+}
+
+.cta-pay-btn:hover {
+    color: #fff !important;
+}
